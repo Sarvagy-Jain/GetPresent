@@ -87,13 +87,13 @@ label1.grid(
 )
 
 
-message = tk.Label(root, text="Get Present" ,bg="#000000"  ,fg="white" ,height=3,font=('times', 30 )) 
+message = tk.Label(root, text="Thapar FaceWise" ,bg="#000000"  ,fg="white" ,height=3,font=('times', 30 )) 
 
 message.place(x=300, y=20)
 
 root.resizable(False, False)
 root.lift()
-#root.attributes('-topmost', 1)
+root.attributes('-topmost', 1)
 
 
 id_label = tk.Label(root,
