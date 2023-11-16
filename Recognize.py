@@ -24,7 +24,7 @@ def recognize_attendence():
     minW = 0.1 * cam.get(3)
     minH = 0.1 * cam.get(4)
 
-    minThreshold = 40 # Accurate minThresold = 67
+    minThreshold = 40 # Accurate minThresold = 40
     while True:
 
         ret, im = cam.read()
